@@ -60,6 +60,7 @@ export class Model implements IModel {
       )
     }
   }
+  aff
 
   public async predictImage (image: HTMLImageElement, url: string): Promise<boolean> {
     if (this.logger.status) {
